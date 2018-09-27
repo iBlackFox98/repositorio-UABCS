@@ -1,0 +1,226 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+.main-header {
+
+}
+
+.logo{
+	background-color: #32618D;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.social {
+
+	font-size: 28px;
+	position: absolute;
+	top: 40px;
+	right: 30px;
+}
+.social a{
+	color:#8D9EBE;
+	text-decoration: none;
+	margin-right: 8px;
+}
+
+.main-menu{
+	text-align: center;
+}
+
+.main-menu ul {
+	list-style: none;
+
+}
+
+.main-menu ul li {
+	display: inline-block;
+	margin: 5px 10px;
+
+}
+
+.main-menu ul li a {
+	font-weight: 700;
+	text-decoration: none;
+	color: #1E3B71;
+	padding-left: 5px;
+	padding-right: 5px;
+	transition: all 0.2s ease-in;
+}
+
+.main-menu ul li a:hover{
+	color:#8DABC2;
+	border-bottom: 2px solid #8DABC2;
+}
+
+.slider img{
+	width: 100%;
+}
+
+.card{
+	border: 1px solid #D6D2D2;
+	border-radius: 5px;
+	width: 30%;
+	overflow: hidden;
+	/* float: left; */
+	/* margin-left: 3%; */
+}
+.card-hero{
+	position: relative;
+}
+
+.card-hero img{
+	width: 100%;
+	
+}
+.btn-card-show{
+
+	margin-top: -10px;
+	margin-left: -50px;
+	background-color: #FFB606;
+	width: 100px;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left:50%;
+
+
+}
+
+.btn-card-show:hover {
+	background-color: #E0A006;
+
+}
+.card-hero:hover .btn-card-show {
+	display: block;
+
+}
+
+.card-title {
+	text-align: center;
+}
+
+
+.card-title::after{
+	content: '';
+	background-color: #1CA311;
+	width:60%;
+	height: 1px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+
+
+
+}
+
+
+.oferta-academica .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.card-list {
+	color: #999999;
+	text-align: center;
+	padding-left: 0px;
+	list-style: none;
+
+}
+
+.card-list li {
+	padding-bottom: 5px;
+}
+.container{
+	max-width: 1170px;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+
+
+.title-section{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.title-oferta-academíca{
+	color:#32618D;
+}
+
+
+.title-contact{
+	background-color:#8DABC2; 
+	color: white;
+}
+
+
+.img-contact{
+	margin: 0;
+}
+
+.img-contact img{
+	width: 100%;
+}
+
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px 30px;
+}
+
+.contact-form input[type="text"] {
+	display: block;
+}
+
+.section-contact .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.form-control{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 7px 0;
+	padding: 7px 0;
+	width: 100%;
+}
+
+.btn-contact{
+	background-color: #32618D;
+	color: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+
+
+.footer{
+	background-color: #32618D;
+	color: #FFB606;
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 10px;
+	margin-top: 20px;
+}
+
+/*Para hacer Diseños Responsivos !IMPORTANTE*/
+
+@media screen and (max-width: 768px){
+
+}
